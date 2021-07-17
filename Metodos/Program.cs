@@ -8,6 +8,9 @@ namespace Metodos
         {
             EscribeAlgo();
             EscribeAlgoEspecifico("Soy un argumento y me llamaron desde un método");
+            
+            Console.WriteLine(Sumar(10,5));
+            Console.WriteLine(Multiplica(10,10));
             Console.Read();
             
         }
@@ -22,6 +25,16 @@ namespace Metodos
         public static void EscribeAlgoEspecifico(string miTexto)
         {
             Console.WriteLine(miTexto);
+        }
+
+        public static int Sumar(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
+        public static int Multiplica(int numM1, int numM2)
+        {
+            return numM1 * numM2;
         }
     }
 }
