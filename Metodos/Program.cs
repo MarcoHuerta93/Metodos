@@ -11,6 +11,7 @@ namespace Metodos
             
             Console.WriteLine(Sumar(10,5));
             Console.WriteLine(Multiplica(10,10));
+            Console.WriteLine(Dividir(5,3));
             Console.Read();
             
         }
@@ -35,6 +36,12 @@ namespace Metodos
         public static int Multiplica(int numM1, int numM2)
         {
             return numM1 * numM2;
+        }
+
+        public static double Dividir(double numDiv1, double numDiv2)
+        {
+            return numDiv1 / numDiv2;
+
         }
     }
 }
