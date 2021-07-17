@@ -6,6 +6,14 @@ namespace Metodos
     {
         public static void Main(string[] args)
         {
+            string amigo1 = "Marco";
+            string amigo2 = "Antonio";
+            string amigo3 = "Jesus";
+
+            SaludarAmigo(amigo1,amigo2, amigo3);
+            
+            
+
             EscribeAlgo();
             EscribeAlgoEspecifico("Soy un argumento y me llamaron desde un método");
             
@@ -42,6 +50,13 @@ namespace Metodos
         {
             return numDiv1 / numDiv2;
 
+        }
+
+        public static void SaludarAmigo(string nombreAmigo1, string nombreAmigo2, string nombreAmigo3)
+        {
+            Console.WriteLine("¡Hola " + nombreAmigo1 + " , que tengas buen dia");
+            Console.WriteLine("¡Hola " + nombreAmigo2 + " , que tengas buen dia");
+            Console.WriteLine("¡Hola " + nombreAmigo3 + " , que tengas buen dia");
         }
     }
 }
