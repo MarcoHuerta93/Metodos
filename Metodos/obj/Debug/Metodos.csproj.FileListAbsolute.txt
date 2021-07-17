@@ -1,0 +1,6 @@
+/Users/marcohuerta/Projects/Metodos/Metodos/bin/Debug/Metodos.exe
+/Users/marcohuerta/Projects/Metodos/Metodos/bin/Debug/Metodos.pdb
+/Users/marcohuerta/Projects/Metodos/Metodos/obj/Debug/Metodos.csproj.AssemblyReference.cache
+/Users/marcohuerta/Projects/Metodos/Metodos/obj/Debug/Metodos.csproj.CoreCompileInputs.cache
+/Users/marcohuerta/Projects/Metodos/Metodos/obj/Debug/Metodos.exe
+/Users/marcohuerta/Projects/Metodos/Metodos/obj/Debug/Metodos.pdb
